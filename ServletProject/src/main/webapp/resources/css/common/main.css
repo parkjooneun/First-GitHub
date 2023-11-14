@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS 스타일링 */
+body {
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.nav-list {
+	background-color: #555;
+	color: #fff;
+	padding: 10px;
+}
+
+.nav-list ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+section {
+	padding: 20px;
+	height: 500px;
+		margin: 20px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+/* 메뉴 스타일링 */
+.menu-item {
+	position: relative;
+}
+
+ul>li>a {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	background-color: #333;
+}
+
+.submenu>a {
+	margin: 10px;
+	display: block;
+}
+
+.menu-item:hover .submenu {
+	display: block;
+}
+
+/* A 태그 스타일링 */
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
