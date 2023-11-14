@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 게시물 목록 테이블 스타일 */
+.table-container {
+	position: relative;
+}
+
+table {
+	width: 100%;
+	margin-top: 40px;
+}
+
+th, td {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #333;
+	color: white;
+}
+
+.add-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: -40px;
+	margin-right: 20px;
+}

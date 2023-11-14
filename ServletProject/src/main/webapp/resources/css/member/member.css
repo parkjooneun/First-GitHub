@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* 로그인/회원가입 스타일링 */
+.login-signup {
+	text-align: right;
+}
+
+.login-signup a {
+	margin-left: 10px;
+}
+
+/* 로그인/회원가입 폼 스타일링 */
+.login-form, .signup-form {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 300px;
+}
+
+.login-form h2, .signup-form h2 {
+	text-align: center;
+}
+
+.input-container {
+	margin-bottom: 10px;
+}
+
+.input-container label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.input-container input[type="text"], .input-container input[type="password"]
+	{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.input-container button {
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.input-container {
+	background-color: #555;
+}
+
+.select {
+	color: blue;
+}
